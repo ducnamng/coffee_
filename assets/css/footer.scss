@@ -1,0 +1,35 @@
+.footer {
+  display: flex;
+  background-color: #262626;
+
+  &__border {
+    width: 96rem;
+    margin: 0 auto;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    font-size: 16px;
+    padding: 4rem 0 6rem;
+
+    &--list {
+      line-height: 2;
+    }
+
+    &--list p {
+      font-size: 2rem;
+    }
+
+    &--list a {
+      color: #fff;
+    }
+
+    &--list a:hover {
+      color: #ffffcc;
+    }
+  }
+}
+.footer__li--flex {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
